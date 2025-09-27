@@ -5,6 +5,9 @@ let phone = document.getElementById("phone")
 let street = document.getElementById("street")
 let city = document.getElementById("city")
 let companyName = document.getElementById("companyName")
+let btn = document.getElementById("btn")
+
+btn.addEventListener("click",() => {
 
 fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
@@ -18,3 +21,5 @@ fetch("https://jsonplaceholder.typicode.com/users")
         city.innerText = data[0].address.city
         companyName.innerText = data[0].company.name
     })
+
+})
