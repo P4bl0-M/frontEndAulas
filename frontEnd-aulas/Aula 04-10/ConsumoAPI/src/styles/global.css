@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font);
+}
+
+p{
+    color: var(--color-secondary-black);    
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-secondary-black);
+}
+
+.btn-primary{
+    display: flex;
+    align-self: flex-start;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    color: var(--color-neutral-white);
+    padding: 14px 32px;
+    cursor: pointer;
+    margin-top: 32px;    
+}
+
+:root{
+    --color-neutral-blue: #2DA5F3;
+    --color-neutral-yellow: #EFD33D;
+    --color-neutral-grey: #B1B5B8;
+    --color-neutral-grey-2: #5F6C72;
+    --color-neutral-grey-3: rgba(177, 203, 31, 0.1);
+    --color-neutral-L_grey: #E0E1E1;
+    --color-neutral-Grey-blue: #ABBED1;
+    --color-neutral-silver: #F5F7FA;
+    --color-neutral-white: #fff;
+
+    --color-primary: #B0CB1F;
+    --color-primary-active: #FA8232;
+    --color-secondary-white: #FFFFFF;
+    --color-secondary-black: #333231;
+
+
+
+    --font: 'Inter';
+
+    --font-family: "Inter";
+    --font-headline-1-size: 64px;
+    --font-headline-1-weight: 600;
+
+    --font-headline-2-size: 48px;
+    --font-headline-2-weight: 700;
+
+    --font-headline-3-size: 28px;
+    --font-headline-3-weight: 700;
+
+    --font-headline-4-size: 25px;
+    --font-headline-4-weight: 700;
+
+    --font-headline-5-size: 20px;
+    --font-headline-5-weight: 600;
+    
+    
+    --font-body-1-size: 18px;
+    --font-body-1-weight-regular: 400;
+    --font-body-1-weight-medium: 500;
+
+    --font-body-2-size: 16px;
+    --font-body-2-weight-regular: 400;
+    --font-body-2-weight-medium: 500;
+    --font-body-2-weight-bold: 700;
+
+    --font-body-3-size: 14px;
+    --font-body-3-weight-regular: 400;
+    --font-body-3-weight-medium: 500;
+    --font-body-3-weight-semi-bold: 600;
+
+    --font-body-4-size: 12px;
+    --font-body-4-weight-regular: 400;
+    --font-body-4-weight-medium: 500;
+
+}
+
+.btn-navigation a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    color: var(--color-primary);
+    font-weight: var(--font-headline-4-weight);
+}
+
+ul{
+    list-style: none;
+}

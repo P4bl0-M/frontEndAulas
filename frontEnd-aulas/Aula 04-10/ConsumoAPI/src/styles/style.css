@@ -1,0 +1,193 @@
+@import url(./global.css);
+
+/* <!---------------------- HEADER ------------------------> */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-secondary-white);
+}
+
+.logo {
+    padding: 30px 0px;
+}
+
+.nav-header {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: var(--color-secondary-black);
+    font-family: var(--font-body-2-size);
+    font-size: var(--font-body-2-weight-regular);
+}
+
+.btn-login {
+    color: var(--color-secondary-black);
+    background-color: var(--color-primary);
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 15px 3px;
+}
+
+/* <!---------------------- FIM HEADER ------------------------> */
+/* <!---------------------- MAIN ------------------------> */
+main {
+    background-color: var(--color-secondary-white);
+}
+
+.content-main {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-avaliacoes {
+    display: flex;
+    gap: 5px;
+}
+
+.content-avaliacoes p {
+    font-size: var(--font-body-3-size);
+    font-weight: var(--font-body-3-weight-semi-bold);
+}
+
+.content-avaliacoes p:nth-last-child(1) {
+    font-size: var(--font-body-3-size);
+    font-weight: var(--font-body-3-weight-regular);
+    color: var(--color-neutral-grey-2);
+}
+
+.preço {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.preço p:nth-last-child(3) {
+    font-size: var(--font-headline-4-size);
+    font-weight: var(--font-headline-4-weight);
+    color: var(--color-neutral-blue);
+}
+
+.preço p:nth-last-child(2) {
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-regular);
+    color: var(--color-neutral-grey-2);
+    text-decoration: line-through;
+}
+
+.preço p:nth-last-child(1) {
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-bold);
+    color: var(--color-secondary-black);
+    padding: 5px 10px;
+    background-color: var(--color-neutral-yellow);
+    border-radius: 2px;
+}
+
+.content-cor p {
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-regular);
+    color: var(--color-secondary-black);
+    padding-bottom: 5px;
+
+}
+
+.cores {
+    display: flex;
+    gap: 15px;
+
+}
+
+.circulo-active {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--color-neutral-grey);
+    border: 3px solid var(--color-secondary-white);
+    box-shadow: 0 0 0 2px var(--color-primary-active);
+
+}
+
+.circulo2 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--color-neutral-L_grey);
+}
+
+.btn-carrinho {
+    color: var(--color-secondary-black);
+    background-color: var(--color-primary);
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 15px 3px;
+}
+
+/* <!---------------------- FIM MAIN ------------------------> */
+/* <!---------------------- SECTION FORM ------------------------> */
+.sec-form {
+    background-color: var(--color-neutral-grey-3);
+    padding-bottom: 60px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+form {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 715px;
+}
+
+input {
+    width: auto;
+    height: 41px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn-sec {
+padding-top: 15px;
+
+}
+.btn-enviar {
+    color: var(--color-secondary-black);
+    background-color: var(--color-primary);
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 15px 3px;
+    
+}
+
+/* <!---------------------- FIM SECTION FORM ------------------------> */
