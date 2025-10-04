@@ -148,6 +148,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 .form-container h2 {
     font-size: var(--font-headline-2-size);
     font-weight: var(--font-headline-2-weight);
@@ -178,16 +179,64 @@ input {
 }
 
 .btn-sec {
-padding-top: 15px;
+    padding-top: 15px;
 
 }
+
 .btn-enviar {
     color: var(--color-secondary-black);
     background-color: var(--color-primary);
     padding: 12px 30px;
     cursor: pointer;
     border-radius: 15px 3px;
-    
+
 }
 
 /* <!---------------------- FIM SECTION FORM ------------------------> */
+/* <!---------------------- FOOTER ------------------------> */
+.content-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+.contentf {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.img-footer {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--color-secondary-black);
+
+}
+
+.imagesf {
+    display: flex;
+    align-content: center;
+    gap: 16px;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados-content {
+    display: flex;
+    gap: 60px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* <!---------------------- FIM FOOTER ------------------------> */
